@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+
+:root {
+    --brand-bg-clr: #2874f0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f0f0f0;
+}
+header{
+    background-color: var(--brand-bg-clr);
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart{
+    display: flex;
+    justify-content: center;
+    margin: 0 15vw;
+    align-items: center;
+}
+.logopic{
+    width: 100px;
+    padding: 0 2vw;
+}
+.loginbtn{
+    background: white;
+    border: white;
+    color: var(--brand-bg-clr);
+    padding: 1vh 1vw;
+}
+.cartpic{
+    height: 6vh;
+    margin: 0 0 0 3vw;
+}
+.cart p{
+    font-weight: bold;
+}
+nav ul{
+    height: 7.5vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 1vw;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    font-weight: bolder;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 25vw;
+    margin: 0 1vw 0 5vw;
+}
+.container{
+    min-height: 85vh;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    border: 2px solid #dce2e9;
+    margin: 1vw 5vw;
+    overflow: hidden;
+    background-color: #fff;
+    height: 50vh;
+}
+.slideimg{
+    width: 90vw;
+}
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 4vh 5vw;
+    border: 2px solid #dce2e9;
+    padding: 5vh 0vw;
+    background-color: #fff;
+}
+.cardimg{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.cardimg img{
+    height: 35vh;
+    width: 13vw;
+}
+footer{
+    height: 7.5vh;
+    background-color: var(--brand-bg-clr);
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+}
